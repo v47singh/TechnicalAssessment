@@ -99,3 +99,8 @@ if __name__ == "__main__":
     print("Total # of block line comments", b)
     print("Total # of comments in block line comments", c)
     print("Total # of TODO lines", todo_lines)
+    
+    # If we have a python file, then in that case we can assign a true value to each line which has '#' 
+    # and count the multiline comments if more than line above and below a line have a hash and each line ends with \n.
+    # Otherwise if the line is blank below ond above it then it is a single line comment.
+    
